@@ -1,14 +1,14 @@
 {
-    "cnn_accuracy_mean": 0.12646520719731452,
-    "cnn_accuracy_std": 0.09135203340498169,
-    "cnn_macro_f1_mean": 0.03036232615798577,
-    "cnn_macro_f1_std": 0.021496741497162363,
-    "cnn_weighted_f1_mean": 0.04162443415333439,
-    "cnn_weighted_f1_std": 0.033349617224692166,
-    "mlp_accuracy_mean": 0.46188520852074477,
-    "mlp_accuracy_std": 0.1004284209680406,
-    "mlp_macro_f1_mean": 0.3408702590995878,
-    "mlp_macro_f1_std": 0.037450332922741025,
-    "mlp_weighted_f1_mean": 0.576290276710867,
-    "mlp_weighted_f1_std": 0.09711874037376544
+    "cnn_accuracy_mean": 0.15070836026718382,
+    "cnn_accuracy_std": 0.21529351579792935,
+    "cnn_macro_f1_mean": 0.05164300016506328,
+    "cnn_macro_f1_std": 0.04145202494626697,
+    "cnn_weighted_f1_mean": 0.10276925035960878,
+    "cnn_weighted_f1_std": 0.16778905170196007,
+    "mlp_accuracy_mean": 0.4864199525964231,
+    "mlp_accuracy_std": 0.09191914491602236,
+    "mlp_macro_f1_mean": 0.3269221465853833,
+    "mlp_macro_f1_std": 0.07219439328619086,
+    "mlp_weighted_f1_mean": 0.4970693686841859,
+    "mlp_weighted_f1_std": 0.08801884221714804
 }
