@@ -4,7 +4,7 @@ import seaborn as sns
 from sklearn.metrics import roc_curve, auc, confusion_matrix
 from sklearn.preprocessing import label_binarize
 
-def plot_confusion_matrix(y_true, y_pred, class_names, save_path):
+def plot_confusion_matrix(y_true, y_pred, class_names, save_path, title='Normalized Confusion Matrix', cmap='Blues'):
     """
     Plots and saves a normalized confusion matrix as a Seaborn heatmap.
     """
@@ -14,11 +14,11 @@ def plot_confusion_matrix(y_true, y_pred, class_names, save_path):
     cm_norm = cm.astype('float') / row_sums
     
     plt.figure(figsize=(9, 7))
-    sns.heatmap(cm_norm, annot=True, fmt=".2f", cmap="Blues",
+    sns.heatmap(cm_norm, annot=True, fmt=".2f", cmap=cmap,
                 xticklabels=class_names, yticklabels=class_names)
     plt.ylabel('Actual Class')
     plt.xlabel('Predicted Class')
-    plt.title('Normalized Confusion Matrix')
+    plt.title(title)
     plt.tight_layout()
     plt.savefig(save_path, dpi=150, bbox_inches='tight')
     plt.close()
